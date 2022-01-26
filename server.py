@@ -66,6 +66,7 @@ def populate_database():
         'size' : sizeBytes
       }
       db.main.insert_one(record)
+      db.main.create_index("width")
   except:
     jsonify(message="Failed")
     
