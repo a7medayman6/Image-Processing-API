@@ -1,0 +1,5 @@
+flask
+flask_pymongo
+Pillow
+numpy
+scikit-image
